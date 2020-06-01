@@ -1,0 +1,149 @@
+@font-face{
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: poppins;
+    font-size: 17px;
+}
+.nav-item{
+    color: gray;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.banner-image img{
+    width: 500px;
+}
+.carousel-indicators li {
+    background-color: black !important;
+
+}
+.card img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.card{
+    border: none;
+    box-shadow: 0px 0px 20px lightgray;
+}
+.card-footer{
+    background-color: transparent;
+    border-top: none;
+}
+.categories{
+    margin-top: 65px;
+}
+.categories .category-name{
+    padding-bottom: 8px;
+    border-bottom: 6px solid goldenrod;
+    width: 157px;
+    border-radius: 6px;
+    display: block;
+    margin: 0 auto;
+}
+
+.category-container img{
+    width: 90px;
+}
+.bag-category .bag{
+    padding: 50px;
+    box-shadow: 0px 0px 20px lightgrey;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right:35px
+}
+.perfume-shoes-category .perfume{
+    margin-bottom: 35px;
+}
+.perfume-shoes-category .perfume, .shoe{
+    padding: 50px;
+    box-shadow: 0px 0px 20px lightgrey;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.contact{
+    background-color: rgba(231, 231, 231, 0.829);
+    text-align: center;
+    padding-bottom: 50px;
+}
+.contact-name{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.contact-input-border{
+    border: 3px solid black;
+    max-width: 410px;
+    padding: 6px;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.contact-input-border input{
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+}
+.contact-input-border input:focus{
+    outline: none;
+}
+.contact-input-border button{
+    border-radius: 20px;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer{
+    background: lightgray;
+}
+.footer-content p{
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+@media all and (max-width: 992px){
+    .phone{
+        display: flex;
+        justify-content: center;
+    }
+    .mediumResponsive{
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 768px){
+    .center{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+}
+
+@media all and (max-width: 520px){
+    .bag-category .bag{
+        padding: 20px;
+    }
+    .perfume-shoes-category .perfume{
+        padding: 20px;
+    }
+    .perfume-shoes-category .shoe{
+        padding: 20px;
+    }
+    .contact-input-border input{
+        width: 100px;
+    }
+}
